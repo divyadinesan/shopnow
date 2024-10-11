@@ -49,7 +49,8 @@ class admin_controller extends Controller
 
       
        return response()->json([
-            'success' => true
+            'success' => true,
+            'data'=>$categories
         ], 201);
     }
     public function product_insert(Request $req)
