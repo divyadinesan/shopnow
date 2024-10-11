@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\category;
 use App\Models\product;
 use Illuminate\Support\Facades\Validator;
-
+///hello this message from api
 class admin_controller extends Controller
 {
      public function category_insert(Request $req)
